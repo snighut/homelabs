@@ -1,0 +1,7 @@
+# Talos configuration files
+*.yaml
+talosconfig
+
+# GitGuardian cache
+.cache_ggshield
+kubeconfig
