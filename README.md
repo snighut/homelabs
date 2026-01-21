@@ -1,11 +1,11 @@
 ```markdown
-# 🚀 GMKtec K8 Plus: Talos Kubernetes Production Cluster
+# 🚀 Home Lab: Talos Kubernetes Production Cluster
 
 This repository contains the configuration and operational procedures for the high-performance Talos Linux cluster running on Proxmox.
 
 ### 🏠 Hardware & Environment
-* **Production Node:** GMKtec K8 Plus (96GB RAM / 2TB SSD)
-* **Management Device:** M4 Mac Mini (Control Machine)
+* **Production Node:** Home Server (96GB RAM / 2TB SSD)
+* **Management Device:** Local Machine (Control Machine)
 * **Virtualization:** Proxmox VE
 
 ### 🌐 Network Mapping (Example)
@@ -18,7 +18,7 @@ This repository contains the configuration and operational procedures for the hi
 ---
 
 ## 1. Initial Setup & Configuration
-Generate secrets and point your Mac Mini's CLI to the cluster.
+Generate secrets and point your local machine's CLI to the cluster.
 
 ```bash
 # 1. Generate base config
@@ -56,7 +56,7 @@ If `tls: certificate required` errors block access:
 
 1. **Proxmox:** Force Reset the VM.
 2. **Talos Boot Menu:** Select **Reset Talos Installation**.
-3. **Mac Mini:** Re-run `apply-config` with the `--insecure` flag.
+3. **Local Machine:** Re-run `apply-config` with the `--insecure` flag.
 
 ---
 
@@ -86,7 +86,7 @@ If a worker IP isn't showing in Proxmox (missing Guest Agent):
 
 ### Safe Shutdown & Reboot
 
-Ensure 24/7 AI agents are scaled down before performing physical maintenance on the GMKtec K8 Plus.
+Ensure 24/7 AI agents are scaled down before performing physical maintenance on the home server.
 
 ```bash
 # Graceful Software Reboot
