@@ -61,5 +61,3 @@ This architecture, running on your **home server**, offers several advantages:
 ### Maintenance Note
 
 If you ever see a **1033 Error** or **502 Bad Gateway**, it means the "Bridge" is broken. Refer to the `troubleshoot.md` file to check the `cloudflared` logs and verify the **Tunnel Token**.
-
-**Would you like me to help you add a "Monitoring" section to this README that shows how to track how many users are visiting your app through the tunnel?**
