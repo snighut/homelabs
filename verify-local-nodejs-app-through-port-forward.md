@@ -73,5 +73,3 @@ Verify that the `TARGETPORT` matches the `containerPort` (3000). If the Service 
 * **Describe Pod Status:** `kubectl describe pod <POD_NAME> -n production`
 
 ---
-
-Would you like me to help you generate a `service.yaml` file based on these port settings?
