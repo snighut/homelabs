@@ -96,7 +96,3 @@ kubectl rollout restart deployment cloudflared-bridge
 | **Pod Security Violation** | In restricted Talos clusters, ensure the pod has a `securityContext` that drops all capabilities and runs as a non-root user (e.g., `65532`). |
 
 ---
-
-### Next Step for the User
-
-**Would you like me to help you set up a "Health Check" notification so you get an email if your GMKtec K8 Plus ever goes offline?**
