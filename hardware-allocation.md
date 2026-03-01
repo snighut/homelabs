@@ -85,8 +85,6 @@ Environment="OLLAMA_HOST=0.0.0.0"
 2. [ ] Enable IOMMU and PCI Passthrough for the Radeon 780M.
 3. [ ] Configure Kubernetes `Endpoints` to map `llm-service` to the Ubuntu VM IP.
 
-Would you like me to generate the **Kubernetes manifest (Service + Endpoints)** so your microservices can start talking to the Ubuntu VM right away?
-
 ---
 
 [Managing Databases on Kubernetes](https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3D2vWfI2i0W3Q)
